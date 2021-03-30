@@ -15,8 +15,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v1
+      - name: Setup PHP Action
+        uses: shivammathur/setup-php@2.10.0
         with:
           php-version: '7.4'
 
