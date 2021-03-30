@@ -25,3 +25,6 @@ jobs:
           TASKID: ${{ secrets.TASKID }}
           USERID: ${{ secrets.USERID }}
         run: php sign.php
+        
+- name: Setup PHP Action
+  uses: shivammathur/setup-php@2.10.0
